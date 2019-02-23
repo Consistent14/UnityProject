@@ -1,0 +1,13 @@
+G:\Git\UnityClassLibrary\ProjectCore\bin\Debug\ProjectCore.dll
+G:\Git\UnityClassLibrary\ProjectCore\bin\Debug\ProjectCore.pdb
+G:\Git\UnityClassLibrary\ProjectCore\bin\Debug\UnityEditor.dll
+G:\Git\UnityClassLibrary\ProjectCore\bin\Debug\UnityEngine.dll
+G:\Git\UnityClassLibrary\ProjectCore\bin\Debug\UnityEngine.UI.dll
+G:\Git\UnityClassLibrary\ProjectCore\bin\Debug\UnityEditor.xml
+G:\Git\UnityClassLibrary\ProjectCore\bin\Debug\UnityEngine.xml
+G:\Git\UnityClassLibrary\ProjectCore\bin\Debug\UnityEngine.UI.xml
+G:\Git\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.csprojAssemblyReference.cache
+G:\Git\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.csproj.CoreCompileInputs.cache
+G:\Git\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.csproj.CopyComplete
+G:\Git\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.dll
+G:\Git\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.pdb
