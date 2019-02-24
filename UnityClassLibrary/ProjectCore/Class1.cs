@@ -12,7 +12,6 @@ namespace ProjectCore
 
         public class StuepView
         {
-
             public InputField nameInputField;
             public Text nameMessageText;
         }
@@ -53,6 +52,7 @@ namespace ProjectCore
                 return (Value != null ? Value.ToString() : "null");
             }
         }
+
         public class SetupViewModel : ViewModelBase
         {
             public BindableProperty<string> Name = new BindableProperty<string>();
@@ -61,6 +61,7 @@ namespace ProjectCore
             public BindableProperty<float> SuccessRate = new BindableProperty<float>();
             public BindableProperty<State> State = new BindableProperty<State>();
         }
+
         public interface IView
         {
             ViewModelBase BindingContext { get; set; }
@@ -88,6 +89,7 @@ namespace ProjectCore
         [AttributeUsage(AttributeTargets.Property)]
         public class RepositoryKey : Attribute
         {
+
         }
         public class Combatant
         {
