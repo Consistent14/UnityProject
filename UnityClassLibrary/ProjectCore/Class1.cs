@@ -7,5 +7,9 @@ namespace ProjectCore
 {
     public class Class1
     {
+        public static int GO()
+        {
+            return 10;
+        }
     }
 }

@@ -1,0 +1,6 @@
+G:\Git\UnityProject\console.test\bin\Debug\console.test.exe
+G:\Git\UnityProject\console.test\bin\Debug\console.test.pdb
+G:\Git\UnityProject\console.test\obj\Debug\console.test.csprojAssemblyReference.cache
+G:\Git\UnityProject\console.test\obj\Debug\console.test.csproj.CoreCompileInputs.cache
+G:\Git\UnityProject\console.test\obj\Debug\console.test.exe
+G:\Git\UnityProject\console.test\obj\Debug\console.test.pdb

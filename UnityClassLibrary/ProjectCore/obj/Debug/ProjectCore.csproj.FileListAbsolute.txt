@@ -11,3 +11,16 @@ G:\Git\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.csproj.CoreCompileInp
 G:\Git\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.csproj.CopyComplete
 G:\Git\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.dll
 G:\Git\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.pdb
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\bin\Debug\ProjectCore.dll
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\bin\Debug\ProjectCore.pdb
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\bin\Debug\UnityEditor.dll
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\bin\Debug\UnityEngine.dll
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\bin\Debug\UnityEngine.UI.dll
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\bin\Debug\UnityEditor.xml
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\bin\Debug\UnityEngine.xml
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\bin\Debug\UnityEngine.UI.xml
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.csprojAssemblyReference.cache
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.csproj.CoreCompileInputs.cache
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.csproj.CopyComplete
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.dll
+G:\Git\UnityProject\UnityClassLibrary\ProjectCore\obj\Debug\ProjectCore.pdb
