@@ -1,0 +1,6 @@
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\SqlServerHelper.exe.config
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\SqlServerHelper.exe
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\SqlServerHelper.pdb
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csproj.CoreCompileInputs.cache
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.exe
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.pdb
