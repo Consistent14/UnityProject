@@ -9,6 +9,8 @@ public class CraneHoisting : MonoBehaviour
 
     public GameObject PlayerObject;
 
+    private GameObject ChildObject;
+
     private List<GameObject> TargetObjects;
 
     // Use this for initialization
@@ -20,6 +22,11 @@ public class CraneHoisting : MonoBehaviour
         {
             Speed = 5;
         }
+
+        if (PlayerObject != null)
+        {
+            ChildObject = GameObject.Find("c");
+        }
     }
 
     // Update is called once per frame
@@ -29,16 +36,18 @@ public class CraneHoisting : MonoBehaviour
     }
     void Move()
     {
-        var x = Input.GetAxis("Horizontal");
+        var x = Input.GetAxisRaw("Horizontal");
 
-        var y = Input.GetAxis("Vertical");
+        var y = Input.GetAxisRaw("Vertical");
 
-        gameObject.transform.Translate(new Vector3(0,x * Time.deltaTime * Speed, y * Time.deltaTime * Speed), Space.Self);
+        gameObject.transform.Translate(new Vector3(0, x * Time.deltaTime * Speed, y * Time.deltaTime * Speed), Space.Self);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (ChildObject != null)
         {
-            Achive();
+            //ChildObject.transform.Rotate(Vector3.up * 20 * Time.deltaTime, Space.Self);
         }
+
+        Achive();
     }
     void Achive()
     {
@@ -57,24 +66,39 @@ public class CraneHoisting : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        //var coll = PlayerObject.GetComponent<Collision>();
+        var gb = PlayerObject.gameObject;
 
-        //var higInfo1 = new RaycastHit();
+        var info = new RaycastHit();
 
-        if (collider.gameObject.name == "T2")
+        if (collider.Raycast(new Ray(gb.transform.position, -Vector3.up), out info, 1))
         {
-            collider.gameObject.transform.parent = transform;
+            if (info.collider.gameObject.name == "T2")
+            {
+                collider.gameObject.transform.parent = PlayerObject.transform;
+
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    PlayerObject.transform.DetachChildren();
+
+                    var rb = collider.gameObject.GetComponent<Rigidbody>();
+
+                    rb.useGravity = true;
+                }
+            }
         }
 
-        //if (coll.collider.Raycast(new Ray(gameObject.transform.position, -Vector3.up), out higInfo1, 5))
-        //{
-        //    TargetObjects.ForEach(m =>
-        //    {
-        //        if (m.tag == higInfo1.transform.gameObject.tag)
-        //        {
-        //            Debug.Log("ok");
-        //        }
-        //    });
-        //}
+        var info2 = new RaycastHit();
+
+        if (collider.Raycast(new Ray(collider.transform.position, -Vector3.up), out info2, 1))
+        {
+            if (info2.collider.gameObject.name == "X")
+            {
+                var rb = collider.gameObject.GetComponent<Rigidbody>();
+
+       
+
+                rb.useGravity = false;
+            }
+        }
     }
 }

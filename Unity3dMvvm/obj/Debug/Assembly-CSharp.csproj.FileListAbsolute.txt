@@ -461,3 +461,4 @@ G:\Git\UnityProject\Unity3dMvvm\Temp\bin\Debug\System.Xml.XmlSerializer.dll
 G:\Git\UnityProject\Unity3dMvvm\Temp\bin\Debug\System.Xml.XPath.dll
 G:\Git\UnityProject\Unity3dMvvm\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
 G:\Git\UnityProject\Unity3dMvvm\Temp\bin\Debug\System.Data.Common.dll
+G:\Git\UnityProject\Unity3dMvvm\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache

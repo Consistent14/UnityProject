@@ -5,12 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.IO;
+using MySql.Data.MySqlClient;
+using Dapper;
 
 namespace SqlServerHelper
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             var host = "server = localhost;database = abc;user =sa;password =admin";
 
@@ -32,8 +34,7 @@ namespace SqlServerHelper
             if (rd.HasRows)
             {
                 {
-               
-                        File.WriteAllText(dp, "have");
+                    File.WriteAllText(dp, "have");
                 }
             }
             else
@@ -42,5 +43,29 @@ namespace SqlServerHelper
 
             }
         }
+
+        static void Main(string[] args)
+        {
+            List<AD> list = new List<AD>();
+            try
+            {
+                string sql = "select * from login ";
+
+                using (MySqlConnection con = new MySqlConnection(DbHelperMySQL.connectionString))
+                {
+                    list = con.Query<AD>(sql).AsList();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }                            
+        }
+
+    }
+    class AD
+    {
+        public string account { get; set; }
+        public string password { get; set; }
     }
 }
