@@ -1,0 +1,19 @@
+
+异常时间：2019-02-27 22:31:23,570 [1] 
+异常级别：ERROR 
+异常位置：[1] (D:\Git\UnityProject\UnityConsole\SqlServerHelper\LogHelper.cs:51) 
+消息描述：报错了
+异常：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SqlServerHelper.Program.Main(String[] args) 位置 D:\Git\UnityProject\UnityConsole\SqlServerHelper\Program.cs:行号 45
+
+
+ 
+异常时间：2019-02-27 22:48:40,181 [1] 
+异常级别：ERROR 
+异常位置：[1] (D:\Git\UnityProject\UnityConsole\SqlServerHelper\LogHelper.cs:51) 
+消息描述：报错了234321
+异常：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SqlServerHelper.Program.Main(String[] args) 位置 D:\Git\UnityProject\UnityConsole\SqlServerHelper\Program.cs:行号 45
+
+
+ 
