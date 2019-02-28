@@ -1,0 +1,7 @@
+D:\Git\UnityProject\UnityConsole\NoticeToUnity\bin\Debug\NoticeToUnity.exe.config
+D:\Git\UnityProject\UnityConsole\NoticeToUnity\bin\Debug\NoticeToUnity.exe
+D:\Git\UnityProject\UnityConsole\NoticeToUnity\bin\Debug\NoticeToUnity.pdb
+D:\Git\UnityProject\UnityConsole\NoticeToUnity\obj\Debug\NoticeToUnity.csprojAssemblyReference.cache
+D:\Git\UnityProject\UnityConsole\NoticeToUnity\obj\Debug\NoticeToUnity.csproj.CoreCompileInputs.cache
+D:\Git\UnityProject\UnityConsole\NoticeToUnity\obj\Debug\NoticeToUnity.exe
+D:\Git\UnityProject\UnityConsole\NoticeToUnity\obj\Debug\NoticeToUnity.pdb

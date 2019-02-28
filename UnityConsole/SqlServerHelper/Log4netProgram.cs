@@ -1,6 +1,9 @@
 ﻿using log4net;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -10,11 +13,11 @@ using System.Threading.Tasks;
 namespace SqlServerHelper
 {
 
-    class Class1
+    class Log4netProgram
     {
         private static log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-        static void Main(string[] args)
+        static void Log4netMain(string[] args)
         {
             //Application.Run(new MainForm());
             //创建日志记录组件实例
@@ -31,6 +34,40 @@ namespace SqlServerHelper
             log.Warn("warn");
             Console.WriteLine("日志记录完毕。");
             Console.Read();
+        }
+
+        static void Main2(string[] args)
+        {
+            //初始化日志文件 
+            string state = ConfigurationManager.AppSettings["IsWriteLog"];
+            //判断是否开启日志记录
+            if (state == "1")
+            {
+                LogHelper.Loginfo.Info("123");
+
+                var path = AppDomain.CurrentDomain.SetupInformation.ApplicationBase +
+                           ConfigurationManager.AppSettings["log4net"];
+
+                if (File.Exists(path))
+                {
+
+                }
+                var fi = new System.IO.FileInfo(path);
+                log4net.Config.XmlConfigurator.Configure(fi);
+            }
+
+            LogHelper.WriteLog("holle world213421");
+
+            try
+            {
+
+                string a = null;
+                a.Remove(1);
+            }
+            catch (Exception ex)
+            {
+                LogHelper.WriteLog("报错了234321", ex);
+            }
         }
     }
 }

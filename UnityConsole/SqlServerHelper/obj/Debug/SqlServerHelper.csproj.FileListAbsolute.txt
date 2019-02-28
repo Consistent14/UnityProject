@@ -20,3 +20,4 @@ D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\MySql.Data.dll
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\log4net.xml
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csproj.CopyComplete
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\App.config
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csprojAssemblyReference.cache
