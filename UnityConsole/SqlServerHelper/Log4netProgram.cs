@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 namespace SqlServerHelper
 {
 
-    class Class1
+    class Log4netProgram
     {
         private static log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             //Application.Run(new MainForm());
             //创建日志记录组件实例
