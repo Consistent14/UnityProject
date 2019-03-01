@@ -4,16 +4,26 @@ D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\SqlServerHelper.pdb
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csproj.CoreCompileInputs.cache
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.exe
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.pdb
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\Dapper.dll
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\log4net.dll
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\MySql.Data.dll
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\log4net.xml
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csproj.CopyComplete
+D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\App.config
+G:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csproj.CoreCompileInputs.cache
+G:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csprojAssemblyReference.cache
+G:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\App.config
 G:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\SqlServerHelper.exe.config
 G:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\SqlServerHelper.exe
 G:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\SqlServerHelper.pdb
 G:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\Dapper.dll
+G:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\log4net.dll
 G:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\MySql.Data.dll
-G:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csprojAssemblyReference.cache
-G:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csproj.CoreCompileInputs.cache
+G:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\log4net.xml
 G:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csproj.CopyComplete
 G:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.exe
 G:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.pdb
+<<<<<<< HEAD
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\Dapper.dll
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\log4net.dll
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\MySql.Data.dll
@@ -21,3 +31,5 @@ D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\log4net.xml
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csproj.CopyComplete
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\bin\Debug\App.config
 D:\Git\UnityProject\UnityConsole\SqlServerHelper\obj\Debug\SqlServerHelper.csprojAssemblyReference.cache
+=======
+>>>>>>> 2a4c6fa485c37a86e4b144d053548c9a66bda594

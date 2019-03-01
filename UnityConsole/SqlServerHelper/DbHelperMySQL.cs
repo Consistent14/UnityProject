@@ -23,7 +23,8 @@ namespace SqlServerHelper
                     return _connectionString = "server = localhost;database = test;uid=root;password =admin";
 
 
-                    /*"server=.;port=3306;database=test;uid=root;pwd=admin;SslMode=None;Charset=utf8";*/
+
+                    //= "server=120.76.123.231;port=3306;database=exhibitionarrangementtest;uid=root;pwd=tjdx@root;SslMode=None;Charset=utf8";
                 }
                 return _connectionString;
             }

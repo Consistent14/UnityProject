@@ -17,7 +17,11 @@ namespace SqlServerHelper
     {
         private static log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
+<<<<<<< HEAD:UnityConsole/SqlServerHelper/Log4netProgram.cs
         static void Log4netMain(string[] args)
+=======
+        static void Main2(string[] args)
+>>>>>>> 2a4c6fa485c37a86e4b144d053548c9a66bda594:UnityConsole/SqlServerHelper/Log4netProgram.cs
         {
             //Application.Run(new MainForm());
             //创建日志记录组件实例

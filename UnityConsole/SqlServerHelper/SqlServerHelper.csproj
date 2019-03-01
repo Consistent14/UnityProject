@@ -36,10 +36,12 @@
       <HintPath>..\..\Resources\Dapper.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packs\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data, Version=6.7.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <HintPath>packages\MySql.Data.6.7.9\lib\net45\MySql.Data.dll</HintPath>
+    <Reference Include="MySql.Data, Version=8.0.15.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packs\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -55,8 +57,13 @@
     <Compile Include="Log4netProgram.cs" />
     <Compile Include="DbHelperMySQL.cs" />
     <Compile Include="LogHelper.cs" />
+<<<<<<< HEAD
     <Compile Include="NoticeProgram.cs" />
     <Compile Include="SqlProgram.cs" />
+=======
+    <Compile Include="MySqlProgram.cs" />
+    <Compile Include="Program.cs" />
+>>>>>>> 2a4c6fa485c37a86e4b144d053548c9a66bda594
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
