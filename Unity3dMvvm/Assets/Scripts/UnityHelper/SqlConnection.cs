@@ -15,7 +15,7 @@ public class SqlConnection : MonoBehaviour {
 
         info.FileName = @"D:\Git\UnityProject\UnityConsole\NoticeToUnity\bin\Debug\NoticeToUnity.exe";
 
-        info.Arguments = "123";
+        info.Arguments = "123454545";
 
         info.UseShellExecute = false;
 
