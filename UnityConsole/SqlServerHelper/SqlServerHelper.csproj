@@ -57,16 +57,22 @@
     <Compile Include="Log4netProgram.cs" />
     <Compile Include="DbHelperMySQL.cs" />
     <Compile Include="LogHelper.cs" />
+<<<<<<< HEAD
+    <Compile Include="NoticeProgram.cs" />
+    <Compile Include="SqlProgram.cs" />
+=======
     <Compile Include="MySqlProgram.cs" />
     <Compile Include="Program.cs" />
+>>>>>>> 2a4c6fa485c37a86e4b144d053548c9a66bda594
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Log4Net.config" />
-    <None Include="packages.config" />
+    <None Include="Log4Net.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
